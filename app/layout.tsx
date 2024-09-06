@@ -6,9 +6,10 @@ export const metadata: Metadata = {
   description: 'A Next.js app integrated with DSCVR Canvas',
   other: {
     'dscvr:canvas:version': 'vNext',
+     "og:image": "https://unsplash.com/photos/a-stack-of-books-sitting-on-top-of-a-table-zUtEPOCm5q0",
   },
   openGraph: {
-    images: ['https://my-canvas.com/preview-image.png'],
+    images: ['https://unsplash.com/photos/a-stack-of-books-sitting-on-top-of-a-table-zUtEPOCm5q0'],
   },
 }
 
@@ -22,7 +23,7 @@ export default function RootLayout({
       <head>
         {/* DSCVR Canvas specific meta tags */}
         <meta name="dscvr:canvas:version" content="vNext" />
-        <meta property="og:image" content="https://my-canvas.com/preview-image.png" />
+        <meta property="og:image" content="https://unsplash.com/photos/a-stack-of-books-sitting-on-top-of-a-table-zUtEPOCm5q0" />
         
         {/* You can add more meta tags here if needed */}
       </head>
